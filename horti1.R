@@ -78,6 +78,8 @@ midf %>%
      # IC95_sup=media+qt(1 - (alpha / 2))* sd/sqrt(n)
     
   )
+  
+  fao_tabla_fil <- fao_tabla %>% filter(n>3)
    
 
   #Censo 
